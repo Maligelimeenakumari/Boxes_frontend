@@ -1,0 +1,152 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+}
+
+h1 {
+  color: #ff6680;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.box {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px 0;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+
+.box:hover {
+  border-color: #ff6680;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.discount {
+  background-color: #ff6680;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+.popular {
+  background-color: #e6005c;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+.price {
+  font-size: 18px;
+  color: #000;
+  margin-left: 20px;
+}
+
+.original-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+
+.content {
+  margin-top: 20px;
+  display: none;
+}
+
+.options div {
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ff6680;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e6005c;
+}
+
+p {
+  color: #ff6680;
+  font-size: 14px;
+}
+
+#total {
+  color: #000;
+  font-weight: bold;
+}
+
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between; /* Ensures space between the p tags */
+  width: 100%;
+}
+
+.footer-text p {
+  margin: 0; /* Removes default margin */
+}
+
+.add-to-cart {
+  width: 100%; /* Full width button */
+  /* padding: 10px; */
+  background-color: #ff6680;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #e6005c;
+}
+
